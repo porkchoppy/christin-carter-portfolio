@@ -1,5 +1,31 @@
 * {
-    background-color: indigo;
-    color: plum; 
+    background-color: #530353;
+    color: #A66FA6; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.header {
+   font-size: 30px; 
+}
+
+.navigation ul {
+    text-align: right;
+}
+
+.navigation li {
+    display: inline;
+    list-style-type: none;
+    font-size: 25px;
+}
+
+.image {
+    border-radius: 40px;
+}
+
+.projects h3 {
+    color: #7B9F35
+}
+
+.projects p {
+    color: #D4EE9F
 }
