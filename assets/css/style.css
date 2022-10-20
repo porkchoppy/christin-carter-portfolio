@@ -6,6 +6,11 @@
 
 .header {
    font-size: 40px; 
+   margin-top: 20px;
+   margin-left: 20px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
 }
 
 .navigation ul {
@@ -16,18 +21,13 @@
     display: inline;
     list-style-type: none;
     font-size: 25px;
+    margin-right: 20px;
 }
 
 h2 {
     font-size: 25px;
+    margin-left: 20px;
 }
-
-/*section {
-    width: 1000px;
-    height: 600px;
-    text-align: center;
-    border: 15px solid black;
-  }*/
 
 .image {
     border-radius: 20px;
@@ -38,9 +38,34 @@ h2 {
 }
 
 .projects h3 {
-    color: #7B9F35
+    color: #7B9F35;
+    margin-left: 20px;
+    padding: 10px;
 }
 
 .projects p {
-    color: #D4EE9F
+    color: #D4EE9F;
+    margin-left: 20px;
+    padding: 10px;
 }
+
+.projects {
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+   align-items: flex-end;
+   flex-wrap: wrap;
+  }
+
+@media screen and (max-width: 992px) {
+    .projects {
+      width: 50%;
+    }
+} 
+
+@media screen and (max-width: 768px) {
+    .projects {
+      width: 100%;
+    }
+  }
+  
