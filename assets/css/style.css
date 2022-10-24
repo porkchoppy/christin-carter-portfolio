@@ -31,9 +31,12 @@
     padding: 10px;
 }
 
+nav a:hover {
+  color: #7B9F35;
+}
+
 h2 {
     font-size: 25px;
-    margin-left: 20px;
  }
 
 .image {
@@ -43,6 +46,46 @@ h2 {
   padding: 10px;
   border: 4px solid #370037;
   display: block;
+}
+
+.image-1 {
+  border-radius: 20px;
+  background-color: #507614;
+  margin: 20px;
+  padding: 10px;
+  border: 4px solid #370037;
+  display: block;  
+}
+
+
+
+.about-me h2 {
+  display: flex;
+  justify-content: center;
+  text-shadow: 4px 2px #1d081d;
+  border: #507614;
+  border-style: dashed;
+  border-radius: 20px;
+  border-width: 5px;
+  padding: 10px;
+}
+
+.about-me p {
+  display: flex;
+  justify-content: center;
+  font-size: larger;
+  padding: 20px;
+}
+
+.projects h2 {
+  display: flex;
+  justify-content: center;
+  text-shadow: 4px 2px #1d081d;
+  border: #507614;
+  border-style: dashed;
+  border-radius: 20px;
+  border-width: 5px;
+  padding: 10px;
 }
 
 .projects h3 {
@@ -57,14 +100,22 @@ h2 {
     padding: 10px;
 }
 
-/*
-.projects {
-   display: flex;
-   flex-direction: row;
-   justify-content: flex-end;
-   align-items: flex-end;
-   flex-wrap: wrap;
-  }*/
+.contact-me h2 {
+  display: flex;
+  justify-content: center;
+  text-shadow: 4px 2px #1d081d;
+  border: #507614;
+  border-style: dashed;
+  border-radius: 20px;
+  border-width: 5px;
+  padding: 10px;
+}
+
+.contact-me li {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
 @media screen and (max-width: 992px) {
     .projects {
@@ -78,3 +129,9 @@ h2 {
     }
   }
   
+.footer {
+  display: flex;
+  justify-content: center;
+  color: #7B9F35;
+  padding: 20px;
+}
