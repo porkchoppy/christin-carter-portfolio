@@ -57,11 +57,7 @@ h2 {
   display: block;  
 }
 
-
-
 .about-me h2 {
-  display: flex;
-  justify-content: center;
   text-shadow: 4px 2px #1d081d;
   border: #507614;
   border-style: dashed;
@@ -77,9 +73,13 @@ h2 {
   padding: 20px;
 }
 
-.projects h2 {
+.projects {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
+}
+
+.projects h2 {
   text-shadow: 4px 2px #1d081d;
   border: #507614;
   border-style: dashed;
