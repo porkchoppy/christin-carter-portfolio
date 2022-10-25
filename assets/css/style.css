@@ -59,11 +59,12 @@ h2 {
   padding: 10px;
   margin-left: 42%;
   margin-right: 42%;
+  margin-top: 50px; 
 }
 
 .about-me p {
-  display: flex;
-  justify-content: center;
+  display: block;
+  text-align: center;
   font-size: larger;
   padding: 20px;
 }
@@ -84,6 +85,7 @@ h2 {
   padding: 10px;
   margin-left: 42%;
   margin-right: 42%;
+  margin-top: 50px;
 }
 
 .projects h3 {
@@ -118,37 +120,42 @@ h2 {
   padding: 10px;
   margin-right: 42%;
   margin-left: 42%;
+  margin-top: 50px;
+}
+
+.contact-me ul {
+  text-align: center;
+  margin-top: 20px;
 }
 
 .contact-me li {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-content:space-between
-  list-style-type: none;
+  display: inline;
+  padding: 10px;
   font-size: 20px;
   text-shadow: 4px 2px #1d081d;
-  border-style:hidden;
-  border-width: 20px 10px 10px 10px;
 }
 
 .footer p {
   color: #7B9F35;
   display: flex;
   justify-content: center;
+  margin-top: 20px;
   padding: 20px;
 }
 
-@media screen and (max-width: 992px) {
-      section {
-        display: block;
-        flex-wrap: wrap;
-      };
-    }
+@media screen and (max-width: 992px;) {
+  .body {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+}  
 
 @media screen and (max-width: 768px) {
-    .body {
-      width: 100%;
+  .body {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
     }
   }
   
