@@ -19,7 +19,8 @@
 }
 
 .navigation ul {
-    text-align: right;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .navigation li {
@@ -143,7 +144,7 @@ h2 {
   padding: 20px;
 }
 
-@media screen and (max-width: 992px;) {
+@media screen and (max-width: 992px) {
   .body {
     display: flex;
     flex-wrap: wrap;
